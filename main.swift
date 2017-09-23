@@ -8,8 +8,22 @@
 
 import Foundation
 
-print("Witaj!")
-let Imie : String = "Jan"
-let Nazwisko : String = "Gil"
-let Wiek : Int = 18
-print("Imie : \(Imie) Nazwisko : \(Nazwisko) Wiek : \(Wiek)")
+var array1 : [String] = []
+array1.append("Jeden")
+array1.append("Dwa")
+array1.append("Trzy")
+for tablica in array1{
+    
+    print ("\(tablica)")
+    
+}
+print ("\(array1[0])")
+print("\(array1[array1.count-1])")
+array1.remove(at: 1 )
+for tablica in array1{
+    
+    print ("\(tablica)")
+   
+}
+
+
