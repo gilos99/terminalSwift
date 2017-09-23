@@ -9,4 +9,6 @@
 import Foundation
 
 print("Witaj!")
-
+var Imie : String = "Jan"
+var Nazwisko : String = "Gil"
+print("Imie : \(Imie) Nazwisko : \(Nazwisko)")
