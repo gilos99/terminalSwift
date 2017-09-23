@@ -9,6 +9,7 @@
 import Foundation
 
 print("Witaj!")
-var Imie : String = "Jan"
-var Nazwisko : String = "Gil"
-print("Imie : \(Imie) Nazwisko : \(Nazwisko)")
+let Imie : String = "Jan"
+let Nazwisko : String = "Gil"
+let Wiek : Int = 18
+print("Imie : \(Imie) Nazwisko : \(Nazwisko) Wiek : \(Wiek)")
